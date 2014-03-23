@@ -100,7 +100,7 @@ class Procure:
 		print "File downloaded"
 	
 		# save the zip file 
-		output = open("abcd.zip", "w")
+		output = open("abcd.zip", "r")
 		output.write(request.read())
 		output.close()
 		
