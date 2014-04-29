@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'ui_procure.ui'
 #
-# Created: Sun Mar 23 11:43:01 2014
+# Created: Fri Apr 25 13:43:41 2014
 #      by: PyQt4 UI code generator 4.10.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -33,8 +33,11 @@ class Ui_Procure(object):
         self.buttonBox.setStandardButtons(QtGui.QDialogButtonBox.Cancel|QtGui.QDialogButtonBox.Ok)
         self.buttonBox.setObjectName(_fromUtf8("buttonBox"))
         self.comboBox = QtGui.QComboBox(Procure)
-        self.comboBox.setGeometry(QtCore.QRect(210, 20, 161, 21))
+        self.comboBox.setGeometry(QtCore.QRect(160, 20, 211, 21))
         self.comboBox.setObjectName(_fromUtf8("comboBox"))
+        self.comboBox_2 = QtGui.QComboBox(Procure)
+        self.comboBox_2.setGeometry(QtCore.QRect(30, 20, 69, 22))
+        self.comboBox_2.setObjectName(_fromUtf8("comboBox_2"))
 
         self.retranslateUi(Procure)
         QtCore.QObject.connect(self.buttonBox, QtCore.SIGNAL(_fromUtf8("accepted()")), Procure.accept)
